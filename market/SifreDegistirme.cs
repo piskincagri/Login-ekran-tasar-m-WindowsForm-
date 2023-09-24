@@ -101,7 +101,7 @@ namespace market
 
                 SmtpClient smtp = new SmtpClient("smtp.office365.com", 587
                     );
-                smtp.Credentials = new System.Net.NetworkCredential("cagri33@hotmail.com", "Cagri1979");
+                smtp.Credentials = new System.Net.NetworkCredential("XXXXX@hotmail.com", "XXXXX");
                 smtp.EnableSsl = true;
                 smtp.Send(mesaj);
                 MessageBox.Show("Doğrulama Kodu Gönderildi", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
